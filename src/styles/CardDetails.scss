@@ -1,0 +1,47 @@
+@import 'variables';
+
+.main-info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: $large-margin;
+  margin-bottom: $medium-margin;
+
+  .current-temperature {
+    font-size: 56px;
+    margin-right: $large-margin;
+  }
+
+  .weather-description {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+.temperature-range,
+.wind-speed,
+.humidity {
+  display: flex;
+  align-items: center;
+  margin: $small-margin 0;
+  font-size: 24px;
+
+  svg {
+    margin-right: $small-margin;
+  }
+}
+
+.max-temperature {
+  color: $red;
+}
+
+.min-temperature {
+  color: $blue;
+}
+
+.icon {
+  color: $light-gray;
+}

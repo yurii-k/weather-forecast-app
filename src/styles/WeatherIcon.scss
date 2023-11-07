@@ -1,0 +1,18 @@
+@import 'variables';
+
+.description-icon {
+  font-size: 40px !important;
+
+  &.clear {
+    color: $orange;
+  }
+
+  &.clouds,
+  &.snow {
+    color: $light-blue;
+  }
+
+  &.rain {
+    color: $blue;
+  }
+}
