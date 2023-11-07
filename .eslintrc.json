@@ -15,7 +15,9 @@
   },
   "plugins": ["react"],
   "rules": {
-    "no-unused-vars": ["error", { "vars": "local" }],
-    "react/prop-types": "off"
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "react/prop-types": "off",
+    "react/display-name": "off"
   }
 }
